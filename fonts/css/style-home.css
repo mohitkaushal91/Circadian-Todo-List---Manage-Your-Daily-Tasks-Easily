@@ -1,0 +1,172 @@
+/* This css file is only for home.html web page */
+body
+{
+    background: url('../images/home-bg.jpg') no-repeat fixed;
+    background-size: cover;
+    font-family: Axiforma !important;
+}
+.navbar
+{
+    background: #3F51B5 !important;
+    border: none;
+    border-radius: 0px;
+    font-size: 16px;
+    padding: 5px;
+}
+.navbar-header a
+{
+    color: white !important;
+}
+ul li a
+{
+    color: white !important;
+}
+/* footer section */
+.fttr
+{
+    position: absolute;
+    background: #737373;
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.heart
+{
+    color: #f50057;
+}
+.dvlp
+{
+    padding: 5px;
+    padding-left: 15px;
+}
+.social-icons
+{
+    list-style: none;
+}
+.social-icons li
+{
+    display: inline-block;
+    padding-left: 20px;
+}
+.social-icons li:nth-child(1)
+{
+    padding-left: 0px;
+}
+.soc-ic
+{
+    padding-right: 15px;
+}
+/* drop down styling */
+.dropbtn {
+    cursor: pointer;
+    background: #3F51B5 !important;
+    border: none;
+    color: white !important;
+    padding-top: 12px;
+    font-size: 16px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #3F51B5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #737373}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.todolist input
+{
+    font-size: 16px;
+    font-family: "Axiforma Medium";
+    padding: 20px;
+}
+.todolist button
+{
+    text-align: center;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    vertical-align: middle;
+}
+.task-row
+{
+    font-family: "Axiforma Medium";
+    background-color: whitesmoke;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 10px;
+    margin-bottom: 0.8px;
+    border-radius: 3px;
+}
+.task-row div p
+{
+    vertical-align: middle;
+}
+.task-row div a
+{
+    float: right;
+    margin-left: 15px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+.form-group i
+{
+    background-color: #337ab7 !important;
+}
+/* mobile media query */
+@media(max-width: 768px)
+{
+	.task-row
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.todolist button
+	{
+		padding-left: 14px;
+		padding-right: 14px;
+        margin-left: -15px;
+	}
+	.dvlp
+	{
+		padding-left: 0px;
+		padding: 5px;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+    .soc-ic
+    {
+        margin-left: auto;
+        padding-right: 17%;
+    }
+    .social-icons li
+    {
+        padding-left: 14px;
+    }
+    .social-icons li:nth-child(1)
+    {
+        padding-left: 0px;
+    }
+}
